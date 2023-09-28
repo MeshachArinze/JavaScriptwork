@@ -1,0 +1,16 @@
+{
+  "name": "hulu-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hulu.js",
+  "scripts": {
+    "watch": "sass --watch hulu.scss ./src/output.css",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
